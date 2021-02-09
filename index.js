@@ -13,13 +13,6 @@ module.exports = {
     '@babel/plugin-transform-modules-commonjs',
     '@babel/plugin-transform-runtime',
     [
-      'babel-plugin-root-import',
-      {
-        rootPathPrefix: '~',
-        rootPathSuffix: 'src',
-      },
-    ],
-    [
       "@emotion",
       {
         "sourceMap": true,
