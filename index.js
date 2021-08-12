@@ -7,6 +7,7 @@ const preset = () => ({
   plugins: [
     [require('@babel/plugin-proposal-decorators'), { legacy: true }],
     [require('@babel/plugin-proposal-class-properties'), { loose: true }],
+    [require('@babel/plugin-proposal-private-methods'), { loose: true }],
     require('@babel/plugin-syntax-dynamic-import'),
     require('@babel/plugin-proposal-function-bind'),
     require('@babel/plugin-proposal-export-namespace-from'),
